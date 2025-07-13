@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promoção Placard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+      color: white;
+      text-align: center;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .highlight {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    .title {
+      font-size: 2.2em;
+      color: #ff0000;
+      margin-top: 30px;
+      text-shadow: 2px 2px 8px black;
+    }
+
+    .subtitle {
+      font-size: 1.3em;
+      margin: 10px 0 30px;
+    }
+
+    .bonus-info {
+      background: #222;
+      border: 2px solid #ff0000;
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 25px;
+      font-size: 1.1em;
+      box-shadow: 0 0 10px #ff0000;
+    }
+
+    .btn-criar {
+      display: block;
+      background-color: #ff0000;
+      color: white;
+      padding: 20px;
+      border-radius: 40px;
+      font-size: 1.4em;
+      font-weight: bold;
+      text-decoration: none;
+      animation: pulse 1.5s infinite;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 320px;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(255,0,0, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(255,0,0, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255,0,0, 0); }
+    }
+
+    .compartilhar {
+      margin-top: 30px;
+      background: #004d00;
+      border-radius: 20px;
+      padding: 15px;
+      width: 90%;
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 10px #00ff00;
+    }
+
+    .compartilhar a {
+      color: white;
+      text-decoration: none;
+      font-size: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .compartilhar img {
+      width: 24px;
+      margin-right: 10px;
+    }
+
+    .percentual {
+      font-size: 0.9em;
+      color: #90ee90;
+      margin-top: 10px;
+    }
+
+    .termos {
+      margin-top: 25px;
+      font-size: 0.75em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">🎉 GANHA ATÉ <span class="highlight">5.000 MT</span>!</div>
+    <div class="subtitle">No teu primeiro depósito 📲</div>
+
+    <div class="bonus-info">
+      Crie já a sua conta, deposite a partir de <span class="highlight">100 MT</span> e receba automaticamente o seu BÔNUS DE BOAS-VINDAS!
+    </div>
+
+    <a class="btn-criar" href="https://media1.placard.co.mz/redirect.aspx?pid=2204&bid=1690" target="_blank">🔥 CRIAR CONTA AGORA</a>
+
+    <div class="compartilhar">
+      <a href="https://wa.me/?text=Ganha+até+5000MT+com+Placard.+Cria+a+tua+conta+agora+👉+{{URL_DO_DOMINIO}}" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+        Convida amigos e GANHA juntos!
+      </a>
+      <div class="percentual">🔗 Já partilharam: 83%</div>
+    </div>
+
+    <div class="termos">*Termos e condições aplicáveis. Válido para novos usuários. Bônus sujeito a verificação.</div>
+  </div>
+</body>
+</html>
